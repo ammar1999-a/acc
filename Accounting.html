@@ -1,0 +1,29 @@
+<!document type htlml>
+    <head>
+        <link rel="stylesheet" href="css/Accounting.css" > 
+        
+    </head>
+    
+    <body>
+        <div class="acco">
+            <div class="cont">
+                <h1> fifo & lifo counter</h1>
+        <label>First Purchese : </label> <input type="text" id="first" placeholder="Amount">  <input class="mony" type="text" id="firstMony" placeholder="Cost">
+        <label>Second Purchses : </label> <input type="text" id="sec"  placeholder="Amount">   <input class="mony" type="text" id="secMony" placeholder="Cost">
+        <label>Sold Inventories : </label> <input type="text" id="sold"  placeholder="Amount">
+         <button onclick="fifo();">Fifo</button>
+         <button onclick="lifo();">Lifo</button>
+         </div>
+         <div class="showing">
+            <h1 id="title"></h1>
+         <div id="show"></div>
+         <div id="firstShow"></div>
+         <div id="secShow"></div>
+         <div id= "totalShow"></div>
+         </div>
+               </div>
+        
+        
+        <script src="js/accounting.js"></script> 
+        
+    </body>
